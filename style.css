@@ -1,12 +1,3 @@
-/*
-Theme Name: Bangalô Audiovisual
-Theme URI: https://bangaloaudiovisual.com
-Author: Guilherme Venancio
-Author URI: mailto:guivenan@hotmail.com;
-Description: Tema desenvolvido para a Bangalô Audiovisual
-Version: 1.0
-*/
-
 /* GERAL */
 a {
   color: #333;
@@ -92,80 +83,6 @@ a:click {
 }
 
 /** END Página 404 */
-
-/* SINGLE */
-
-.single-author-meta a{
-  color: #000
-}
-
-.single-author-meta a:hover{
-  color: #000
-}
-
-.single-content a{
-  color: #000;
-  font-weight: 600;
-}
-
-.single-content a:hover{
-  color: #000;
-}
-
-.single-content p{
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 2rem;
-  margin-bottom: 1em;
-  margin-top: 1em;
-  color: #333;
-}
-
-.single-content h2{
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
-.single-content h3{
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 2rem;
-  margin-bottom: 1.25rem;
-}
-
-
-.single-content figcaption {
-  font-size: 14px;
-  font-style: italic;
-  line-height: 16px;
-}
-
-.single-content figure {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-/* END SINGLE */
-
-/* EMBED POSTS */
-
-.twitter-tweet {
-  margin:auto;
-}
-
-.instagram-media {
-  margin: auto !important;
-}
-
-.wp-block-embed-youtube iframe {
-  width: 100%;
-  height: 350px;
-}
-
-/* END EMBED POSTS */
 
 /* ZOOM HOVER */
 
