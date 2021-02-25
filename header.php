@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="pt-br">
 	
 	<head>
 		<!-- Required Metas -->
-		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- END Required Metas -->
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 		<!-- END Bootstrap CSS -->
 
 		<!-- Native CSS -->
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/style.css">
+		<link rel="stylesheet" type="text/css" href="/style.css">
 		<!-- END Native CSS -->
 
 		<!-- Google Analytics -->
@@ -26,13 +26,5 @@
 		<!-- END Google Analytics -->
 
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/img/favicon.png" />
+		<link rel="icon" type="image/png" href="/img/favicon.png" />
 		<!-- END Favicon -->
-
-	<?php wp_head(); ?>
-	</head>
-	
-	<body>
-		<!-- NAVBAR -->
-    	<?php include('navbar.php'); ?>
-    	<!-- NAVBAR END -->

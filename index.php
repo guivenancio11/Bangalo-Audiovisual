@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php include('header.php'); ?></head>
+  
+
+<body>
+    <!-- NAVBAR -->
+      <?php include('navbar.php'); ?>
+      <!-- NAVBAR END -->
 
 <!-- FEATURED AREA -->
 <div class="video-background-holder mt-4">
