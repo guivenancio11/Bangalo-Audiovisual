@@ -1,0 +1,235 @@
+<?php get_header(); ?>
+
+<!-- FEATURED AREA -->
+<div class="video-background-holder mt-4">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="<?php bloginfo('template_directory'); ?>/vid/home/bg-header.webm" type="video/webm" />
+    <source src="<?php bloginfo('template_directory'); ?>/vid/home/bg-header.mp4" type="video/mp4">
+    <source src="<?php bloginfo('template_directory'); ?>/vid/home/bg-header.ogv" type="video/ogv" />
+  </video>
+  <div class="video-background-content container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3"><img class="img-fluid" width="400" src="<?php bloginfo('template_directory'); ?>/img/logo-branca.svg" alt="Logo Bangalô Audiovisual"></h1>
+      </div>
+    </div>
+  </div>
+</div>      
+<!-- END FEATURED AREA -->
+
+<!-- SERVIÇOS -->
+<div class="pt-4 pb-4 bg-light">
+  <h2 class="text-center pt-4" style="font-weight: bold; font-size: 50px;">SERVIÇOS</h2>
+  <p class="lead pl-4 pr-4 pt-2 pb-4 text-center">Confira abaixo os tipos de produções de vídeo oferecidos pela Bangalô Audiovisual</p>
+  <hr class="pb-4" style="width: 20%;"/>
+  <div class="row pt-4 pb-4 mb-4" style="max-width: 80%; margin: auto;">
+    
+    <div class="col-lg col-md-6 mb-4">
+      <div class="card border-0 shadow zoom-in">
+        <video style="width: 100%;" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/inst.mp4" type="video/mp4">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/inst.webm" type="video/webm">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/inst.ogv" type="video/ogv" />
+        </video>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Institucional</h5>
+          <div class="card-text text-black-50">Para simplificar<a href="<?php echo get_home_url(); ?>/institucional" class="stretched-link"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg col-md-6 mb-4">
+      <div class="card border-0 shadow zoom-in">
+        <video style="width: 100%;" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/mkt.webm" type="video/webm">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/mkt.ogv" type="video/ogv" />
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/mkt.mp4" type="video/mp4">
+        </video>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Marketing</h5>
+          <div class="card-text text-black-50">Para vender e apresentar<a href="<?php echo get_home_url(); ?>/marketing" class="stretched-link"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg col-md-6 mb-4">
+      <div class="card border-0 shadow zoom-in">
+        <video style="width: 100%;" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/evt.webm" type="video/webm">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/evt.ogv" type="video/ogv" />
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/evt.mp4" type="video/mp4">
+        </video>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Eventos</h5>
+          <div class="card-text text-black-50">Cobertura e pós-eventos<a href="<?php echo get_home_url(); ?>/eventos" class="stretched-link"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg col-md-6 mb-4">
+      <div class="card border-0 shadow zoom-in">
+        <video style="width: 100%;" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/ani.webm" type="video/webm">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/ani.ogv" type="video/ogv" />
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/ani.mp4" type="video/mp4">
+        </video>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Animação</h5>
+          <div class="card-text text-black-50">Estilos 2D e 3D<a href="<?php echo get_home_url(); ?>/animacao" class="stretched-link"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg col-md-6 mb-4">
+      <div class="card border-0 shadow zoom-in">
+        <video style="width: 100%;" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/cont.ogv" type="video/ogv" />
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/cont.webm" type="video/webm">
+          <source src="<?php bloginfo('template_directory'); ?>/vid/home/cont.mp4" type="video/mp4">
+        </video>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Conteúdo</h5>
+          <div class="card-text text-black-50">Para TV e Internet<a href="<?php echo get_home_url(); ?>/conteudo" class="stretched-link"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="text-center">
+    <svg class="bi bi-chevron-compact-down text-secondary" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 01.67-.223L8 9.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd"/>
+    </svg>
+  </div>
+
+</div>
+<!-- END SERVIÇOS -->
+
+<!-- INVESTIR -->
+<div style="background-color: #e9ecef;" id="sobre" class="pt-4 pb-4">
+  <div class="container text-center mt-4 mb-4">
+    <h2 class="pt-4 pb-2 pl-2 pr-2" style="font-weight: bold; font-size: 50px;">Porque investir em vídeo?</h2>
+    <p class="lead pt-2 pl-2 pr-2">Os vídeos são a forma mais direta e entendível de produção de conteúdo. A pesquisa da Media Buton, apontou que 85% dos consumidores que assistem a vídeos têm maior convencimento para comprar. Outra prova é a pesquisa da Page Wix, que constatou que 60% dos usuários ao visitarem um site, assistem primeiro o vídeo antes da leitura.</p>
+    <p class="pb-4"><a class="btn btn-outline-secondary" href="https://bangaloaudiovisual.com/2020/por-que-investir-em-criacao-de-video/" target="blank">Clique aqui e saiba mais</a></p>
+  </div>
+</div>
+<!-- END INVESTIR -->
+    
+<!-- SOBRE -->
+<div id="sobre" class="pt-4 pb-4 bg-light">
+  <div class="container text-center mt-4 mb-4">
+    <h2 class="pt-4 pb-2 pl-2 pr-2" style="font-weight: bold; font-size: 50px;">Sobre a Bangalô</h2>
+    <p class="lead pt-2 pl-2 pr-2">A Bangalô Audiovisual é uma produtora independente fundada em 2019 pelos jornalistas Guilherme Venancio e Henrique Grandi. Com sede em Santa Catarina, a produtora atua nos segmentos comerciais, institucionais, além de produções de conteúdos para TV, cinema e Internet.</p>
+    <p class="pb-4 pt-4"><a class="btn btn-outline-secondary" href="https://bangaloaudiovisual.com/2020/como-que-surgiu-a-bangalo-audiovisual/" target="blank">Conheça nossa história</a></p>
+  </div>
+</div>
+<!-- END SOBRE -->
+
+<!-- EQUIPE -->
+<div style="background-color: #e9ecef;" id="nossa-equipe">
+  <div class="container pt-4">
+    <h2 class="pt-4 pb-2 pl-2 pr-2 text-center" style="font-size: 40px;">Nossa Equipe</h2>
+    <section class="p-5">
+      <div class="row text-center text-md-left">
+        
+        <!--GUILHERME-->
+        <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+          <div class="mb-md-0 mb-4 mx-4">
+            <img src="<?php echo get_avatar_url( '1',); ?>" style="max-width: 160px;" class="rounded-circle z-depth-1" alt="Jornalista Henrique Grandi da Costa">
+          </div>
+          <div>
+            <h4 class="font-weight-bold mb-3"><?php the_author_meta( 'first_name', 1 ); ?> <?php the_author_meta( 'last_name', 1 ); ?></h4>
+            <h6 class="font-weight-bold grey-text mb-3"><?php the_author_meta( 'display_name', 1 ); ?></h6>
+            <p class="grey-text"><?php the_author_meta( 'description', 1 ); ?></p>
+            <!-- Facebook-->
+            <a href="https://www.facebook.com/guivenancio11" style="text-decoration:none" target="blank" class="p-2 fa-lg fb-ic"><span style="color: #333333;"><i class="fab fa-facebook-f"></i></span></a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/guivenancio11/" style="text-decoration:none" target="blank" class="p-2 fa-lg ins-ic"><span style="color: #333333;"><i class="fab fa-instagram"></i></span></a>
+            <!--Twitter-->
+            <a href="https://www.twitter.com/guivenancio11/" style="text-decoration:none" target="blank" class="p-2 fa-lg ins-ic"><span style="color: #333333;"><i class="fab fa-twitter"></i></span></a>
+          </div>
+        </div>
+        <!-- END GUILHERME-->
+
+        <!--HENRIQUE-->
+        <div class="col-xl-6 col-lg-12 mb-5 d-md-flex justify-content-between">
+          <div class="mb-md-0 mb-4 mx-4">
+            <img src="<?php echo get_avatar_url( '2',); ?>" style="max-width: 160px;" class="rounded-circle z-depth-1" alt="Jornalista Henrique Grandi da Costa">
+          </div>
+          <div>
+            <h4 class="font-weight-bold mb-3"><?php the_author_meta( 'first_name', 2 ); ?> <?php the_author_meta( 'last_name', 2 ); ?></h4>
+            <h6 class="font-weight-bold grey-text mb-3"><?php the_author_meta( 'display_name', 2 ); ?></h6>
+            <p class="grey-text"><?php the_author_meta( 'description', 2 ); ?></p>
+            <!-- Facebook-->
+            <a href="https://www.facebook.com/hikskate" style="text-decoration:none" target="blank" class="p-2 fa-lg fb-ic"><span style="color: #333333;"><i class="fab fa-facebook-f"></i></span></a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/henriquegrandi_/" style="text-decoration:none" target="blank" class="p-2 fa-lg ins-ic"><span style="color: #333333;"><i class="fab fa-instagram"></i></span></a>
+          </div>
+        </div>
+        <!--END HENRIQUE-->
+
+      </div>
+    </section>
+  </div>
+</div>
+<!-- END EQUIPE -->
+
+<!-- BLOG -->
+<div class="pt-4 pb-4 bg-light">
+  <div class="container">
+    <h2 class="text-center pt-4" style="font-weight: bold; font-size: 50px;">BLOG</h2>
+    <p class="lead pl-4 pr-4 pt-2 pb-4 text-center">No blog da Bangalô falamos sobre temas que envolvem a produção audiovisual e estratégias que te ajudam a tirar melhor proveito dos vídeos para o desenvolvimento de seus projetos. Confira abaixo algumas das publicações</p>
+    <hr class="pb-4 m-auto" style="width: 20%;"/>
+    <div class="pt-4 pb-4 row">
+      <?php query_posts( array ( 'posts_per_page' => '3', ) ); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <div class="col-md-4">
+              <div class="card mb-4 border-0 bg-light zoom-in">
+                <a href="<?php the_permalink(); ?>" class="stretched-link"></a>
+                  <img class="card-img-top" style="height: 180px; object-fit: cover;" src="<?php the_post_thumbnail_url('medium'); ?>" alt="">
+                  <div class="card-body">
+                    <h3 class="card-text" style="font-size: 1.5rem"><?php the_title(); ?></h3>
+                  </div>
+                </div>
+            </div>
+      <?php endwhile; endif; ?>
+    </div>
+  </div>
+  <div class="text-center pb-4">
+    <a class="btn btn-dark" href="<?php echo get_home_url(); ?>/blog">Ver mais publicações</a>
+  </div>
+</div>
+<!-- END BLOG -->
+
+<!-- CONTATO/ORÇAMENTO -->
+<div class="p-4" id="contato" style="background-color: #e9ecef;">
+  <div class="container p-4">
+    <h1 class="text-center" style="font-size: 60px;">Solicite um orçamento</h1>
+    <div class="row mb-4">
+      <div class="col text-center">
+        <hr class="text-secondary" style="width: 50px">
+        <p style="font-size: 18px">
+          <b class="mb-4">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://api.whatsapp.com/send?phone=5547996722120" target="blank" class="text-dark">(47) 99672-2120</a> |
+            <a href="https://api.whatsapp.com/send?phone=5547992770111" target="blank" class="text-dark">(47) 9 9277-0111</a>
+          </b>
+        </p>
+        <p style="margin-top: -16px;">
+          <i class="far fa-envelope"></i>
+          <a href="mailto:produtora@bangaloaudiovisual.com" target="blank" class="text-dark">produtora@bangaloaudiovisual.com</a>
+        </p>
+        <hr class="text-secondary" style="width: 50px">
+      </div>
+    </div>
+
+    <!-- Formulário -->
+    <div class="container">
+      <?php echo do_shortcode('[contact-form-7 id="38" title="Solicitar Orçamento"]'); ?>
+    </div>
+    <!-- END Formulário -->
+
+  </div>
+</div>
+<!-- END CONTATO/ORÇAMENTO -->
+
+<?php get_footer(); ?>
